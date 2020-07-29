@@ -1,0 +1,26 @@
+{
+    "name": "fcc-heat-map",
+    "homepage": "https://peeblesbrandon.github.io/fcc-heap-map",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {},
+    "scripts": {
+        "start": "open -a 'Google Chrome' src/index.html",
+        "deploy": "gh-pages-deploy"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "gh-pages-deploy": "^0.5.1"
+    }
+}
